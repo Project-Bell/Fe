@@ -1,0 +1,55 @@
+header {
+    max-width: 730px;
+    height: 75px;
+
+    display: flex;
+    align-items: center;
+    justify-content: space-evenly;
+
+    background-color: coral;
+    padding: 0 40px;
+}
+
+header h1 img {
+    width: 60px;
+    height: 32px;
+}
+
+/* 검색 박스 스타일 시작 */
+form {
+    position: relative;
+    display: flex;
+    justify-content: flex-end;
+    align-items: center;
+}
+form.search_box input {
+    width: 600px;
+    height: 35px;
+
+    box-shadow: 0px 8px 24px 0 rgba(149, 157, 165, 0.2);
+
+    border: none;
+    border-radius: 10px;
+    margin-left: 5px;
+    padding-left: 10px;
+}
+
+form.search_box input::placeholder {
+    color: #ccc;
+    font-size: 14px;
+}
+
+form button {
+    border: none;
+    background-color: #fff;
+
+    position: absolute;
+    z-index: 1;
+    padding: 0;
+    margin-right: 20px;
+}
+
+form button svg {
+    width: 18px;
+    height: 18px;
+}

@@ -1,7 +1,6 @@
 #root {
-    max-width: 730px;
-    height: auto;
+    max-width: 1300px;
 
     background-color: aquamarine;
-    padding: 0 45px;
+    margin: auto;
 }

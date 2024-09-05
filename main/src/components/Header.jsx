@@ -5,7 +5,7 @@ export default function Header() {
     return (
         <header>
             <h1 className="logo">
-                <a href="#">
+                <a href="Header.jsx">
                     <img src="./bell_logo.png" alt="벨 로고 아이콘" />
                 </a>
             </h1>

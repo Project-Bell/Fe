@@ -4,11 +4,11 @@ import "./HeaderModule.css";
 export default function Header() {
     return (
         <header>
-            <h1 className="logo">
+            <h2 className="logo">
                 <a href="Header.jsx">
                     <img src="./bell_logo.png" alt="벨 로고 아이콘" />
                 </a>
-            </h1>
+            </h2>
 
             <form className="search_box" action="" method="get">
                 <label htmlFor="search_txt">

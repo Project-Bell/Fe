@@ -16,7 +16,7 @@ header h2 img {
 }
 
 /* 검색 박스 스타일 시작 */
-form {
+form.search_box {
     position: relative;
     display: flex;
     justify-content: flex-end;
@@ -39,7 +39,7 @@ form.search_box input::placeholder {
     font-size: 14px;
 }
 
-form button {
+form.search_box button {
     border: none;
     background-color: #fff;
 
@@ -49,7 +49,7 @@ form button {
     margin-right: 20px;
 }
 
-form button svg {
+form.search_box button svg {
     width: 18px;
     height: 18px;
 }

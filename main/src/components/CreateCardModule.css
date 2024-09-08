@@ -1,0 +1,24 @@
+form.create_card {
+    display: flex;
+}
+
+form.create_card textarea {
+    font-size: 14px;
+    width: 640px;
+    height: 150px;
+
+    border: none;
+    border-radius: 10px;
+    resize: none;
+    padding: 20px;
+}
+
+form.create_card button {
+    font-size: 14px;
+
+    border: none;
+    border-radius: 10px;
+    background-color: #ebe7f1;
+
+    padding: 10.5px;
+}

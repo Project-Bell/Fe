@@ -1,11 +1,16 @@
 import React from "react";
+import "./CreateCardModule.css";
 
 export default function CreateCard() {
     return (
-        <section className="main_create_card">
-            <textarea name="card" id="card">
-                카드 내용을 입력하세요
-            </textarea>
-        </section>
+        <form action="" className="create_card">
+            <textarea
+                name="create_card"
+                cols="38"
+                rows="5"
+                placeholder="카드 내용을 입력하세요."
+            ></textarea>
+            <button type="submit">카드 보내기</button>
+        </form>
     );
 }

@@ -6,7 +6,7 @@ header {
     align-items: center;
     justify-content: space-evenly;
 
-    background-color: coral;
+    /* background-color: coral; */
     padding: 0 40px;
 }
 
@@ -27,6 +27,7 @@ form.search_box input {
     height: 35px;
 
     box-shadow: 0px 8px 24px 0 rgba(149, 157, 165, 0.2);
+    box-sizing: border-box;
 
     border: none;
     border-radius: 10px;

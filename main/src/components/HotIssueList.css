@@ -1,0 +1,21 @@
+section.hot_issue {
+    width: 640px;
+    height: 195px;
+
+    box-sizing: border-box;
+
+    margin: auto;
+}
+
+section.hot_issue h3 {
+    font-size: 24px;
+    font-weight: 700;
+    margin-top: 45px;
+}
+
+.card_list {
+    display: flex;
+    gap: 15px;
+
+    margin-top: 20px;
+}

@@ -1,5 +1,9 @@
 form.create_card {
+    margin-top: 20px;
+
     display: flex;
+    justify-content: center;
+    position: relative;
 }
 
 form.create_card textarea {
@@ -7,8 +11,11 @@ form.create_card textarea {
     width: 640px;
     height: 150px;
 
+    box-shadow: 0 8px 24px 0 rgba(149, 157, 165, 0.2);
+
     border: none;
     border-radius: 10px;
+    box-sizing: border-box;
     resize: none;
     padding: 20px;
 }
@@ -20,5 +27,8 @@ form.create_card button {
     border-radius: 10px;
     background-color: #ebe7f1;
 
+    position: absolute;
+    right: 8.5%;
+    top: 65%;
     padding: 10.5px;
 }

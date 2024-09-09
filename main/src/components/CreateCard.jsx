@@ -1,5 +1,5 @@
 import React from "react";
-import "./CreateCardModule.css";
+import "./CreateCard.css";
 
 export default function CreateCard() {
     return (

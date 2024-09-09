@@ -1,0 +1,28 @@
+.hotIssue_card {
+    width: 150px;
+    height: 150px;
+
+    box-sizing: border-box;
+    border: 1px solid #eee;
+    border-radius: 10px;
+
+    padding: 16px 10px;
+}
+
+.hotIssue_card h4 {
+    font-size: 18px;
+    font-weight: 500;
+}
+
+.hotIssue_card p {
+    color: #777;
+    font-size: 14px;
+    line-height: 18px;
+
+    margin-top: 10px;
+
+    overflow: hidden;
+    display: -webkit-box;
+    -webkit-line-clamp: 5;
+    -webkit-box-orient: vertical;
+}

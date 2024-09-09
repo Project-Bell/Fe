@@ -1,0 +1,13 @@
+section.new_post {
+    width: 640px;
+
+    box-sizing: border-box;
+
+    margin: auto;
+}
+
+section.new_post h3 {
+    font-size: 20px;
+
+    margin-top: 20px;
+}

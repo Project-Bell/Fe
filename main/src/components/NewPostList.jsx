@@ -9,6 +9,7 @@ export default function NewPostList() {
             <h3>최신글</h3>
             <NewPost_txtType />
             <NewPost_imgType />
+            <NewPost_txtType />
         </section>
     );
 }

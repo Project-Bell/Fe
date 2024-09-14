@@ -29,8 +29,10 @@
     width: 100%;
 
     display: flex;
-
     overflow: scroll;
+    scrollbar-width: none;
+
+    margin-top: 10px;
 }
 
 .imgCard_contents img {

@@ -1,0 +1,33 @@
+.userHeader {
+    min-width: 34.375rem;
+
+    margin-left: 1.25rem;
+    margin-top: 2.5rem;
+}
+
+.userInfo {
+    height: 70px;
+
+    display: flex;
+    align-items: center;
+}
+
+.userInfo img {
+    width: 4.375rem;
+    height: 4.375rem;
+
+    border-radius: 0.625rem;
+}
+
+.userInfo span {
+    font-size: 36px;
+
+    margin-left: 16px;
+}
+
+.cart_state_btn_wrap {
+    margin-top: 20px;
+
+    display: flex;
+    justify-content: space-between;
+}

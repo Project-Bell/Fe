@@ -1,10 +1,10 @@
 import React from "react";
-import UserHeader from "../components/UserHeader";
+import UserStateBar from "../components/UserStateBar";
 
 export default function SideMenu() {
     return (
         <>
-            <UserHeader />
+            <UserStateBar />
         </>
     );
 }

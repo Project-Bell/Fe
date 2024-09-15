@@ -1,0 +1,72 @@
+.userHeader {
+    min-width: 34.375rem;
+
+    margin-left: 1.25rem;
+    margin-top: 2.5rem;
+}
+
+.userInfo {
+    height: 4.375rem;
+
+    display: flex;
+    align-items: center;
+}
+
+.userInfo img {
+    width: 4.375rem;
+    height: 4.375rem;
+
+    border-radius: 0.625rem;
+}
+
+.userInfo span {
+    font-size: 2.25rem;
+
+    margin-left: 1rem;
+}
+
+.cart_state_btn_wrap {
+    margin-top: 2.1875rem;
+
+    display: flex;
+    justify-content: space-between;
+}
+
+.user_side_tap {
+    margin-top: 1.875rem;
+
+    display: flex;
+    flex-wrap: wrap;
+    gap: 0.625rem;
+}
+
+.live_top_10 {
+    margin-top: 65px;
+}
+
+.live_top_10 h3 {
+    font-size: 24px;
+    font-weight: 400;
+}
+
+.live_top_10 h3 em {
+    font-weight: 700;
+}
+
+.keyword_card_list {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 6px;
+    margin-top: 20px;
+}
+
+.keyword_top8 {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    margin-top: 10px;
+}
+
+.keyword_top8:nth-child(5) {
+    margin-top: 6px;
+}

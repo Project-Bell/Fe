@@ -22,8 +22,9 @@ form.search_box {
     justify-content: flex-end;
     align-items: center;
 }
+
 form.search_box input {
-    width: 600px;
+    width: 575px;
     height: 35px;
 
     box-shadow: 0px 8px 24px 0 rgba(149, 157, 165, 0.2);

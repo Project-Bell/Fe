@@ -3,11 +3,12 @@ import styled from "styled-components";
 
 export default function LiveBellTop2({ topTopic }) {
     const LiveBellTop2 = styled.button`
+        color: #fff;
         font-size: 28px;
         font-weight: 700;
         text-align: center;
 
-        width: 270px;
+        width: 272px;
         height: 135px;
         border: none;
         border-radius: 10px;

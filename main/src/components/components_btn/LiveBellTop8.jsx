@@ -3,8 +3,8 @@ import styled from "styled-components";
 
 export default function LiveBellTop8({ topTopic }) {
     const LiveBellTop8 = styled.button`
-        font-size: 28px;
-        font-weight: 700;
+        color: #fff;
+        font-size: 26px;
         text-align: center;
 
         width: 135px;

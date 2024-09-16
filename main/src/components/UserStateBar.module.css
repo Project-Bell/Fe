@@ -1,8 +1,12 @@
 .userHeader {
     min-width: 34.375rem;
+    height: 720px;
 
     margin-left: 1.25rem;
     margin-top: 2.5rem;
+
+    position: sticky;
+    top: 20px;
 }
 
 .userInfo {
@@ -56,6 +60,7 @@
 .keyword_card_list {
     display: flex;
     flex-wrap: wrap;
+    justify-content: space-evenly;
     gap: 6px;
     margin-top: 20px;
 }
@@ -64,9 +69,6 @@
     display: flex;
     flex-wrap: wrap;
     justify-content: space-between;
-    margin-top: 10px;
-}
-
-.keyword_top8:nth-child(5) {
-    margin-top: 6px;
+    margin-top: 5px;
+    gap: 6px;
 }

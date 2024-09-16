@@ -43,11 +43,8 @@ export default function UserStateBar() {
                 <WhiteBtn pageName="1:1 채팅방"></WhiteBtn>
                 <WhiteBtn pageName="좋아하는 카드"></WhiteBtn>
 
-                <WhiteBtn pageName="관심 키워드"></WhiteBtn>
-                <WhiteBtn pageName="관심 키워드"></WhiteBtn>
-
-                <WhiteBtn pageName=""></WhiteBtn>
-                <WhiteBtn pageName=""></WhiteBtn>
+                {/* <WhiteBtn pageName="관심 키워드"></WhiteBtn>
+                <WhiteBtn pageName="관심 키워드"></WhiteBtn> */}
             </aside>
 
             <aside className={style.live_top_10}>
@@ -61,10 +58,10 @@ export default function UserStateBar() {
 
                     <div className={style.keyword_top8}>
                         <LiveBellTop8 topTopic="사이렌" />
-                        <LiveBellTop8 topTopic="사이렌" />
-                        <LiveBellTop8 topTopic="사이렌" />
-                        <LiveBellTop8 topTopic="사이렌" />
-                        <LiveBellTop8 topTopic="사이렌" />
+                        <LiveBellTop8 topTopic="사이" />
+                        <LiveBellTop8 topTopic="사이렌이" />
+                        <LiveBellTop8 topTopic="사이렌이 울려" />
+                        <LiveBellTop8 topTopic="사이렌이 울렸더군요요" />
                         <LiveBellTop8 topTopic="사이렌" />
                         <LiveBellTop8 topTopic="사이렌" />
                         <LiveBellTop8 topTopic="사이렌" />

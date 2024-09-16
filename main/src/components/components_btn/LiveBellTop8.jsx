@@ -6,6 +6,9 @@ export default function LiveBellTop8({ topTopic }) {
         color: #fff;
         font-size: 26px;
         text-align: center;
+        white-space: nowrap;
+        overflow: hidden;
+        text-overflow: ellipsis;
 
         width: 135px;
         height: 135px;

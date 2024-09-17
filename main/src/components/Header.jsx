@@ -35,6 +35,30 @@ export default function Header() {
                     </svg>
                 </button>
             </form>
+
+            <div className="search_box_modal">
+                <div className="search_history_keyword">
+                    <h4>최근 검색어</h4>
+                    <ul>
+                        <li>검색어1</li>
+                        <li>검색어2</li>
+                        <li>검색어3</li>
+                        <li>검색어4</li>
+                        <li>검색어5</li>
+                    </ul>
+                </div>
+
+                <div className="search_famuse_keyword">
+                    <h4>인기 검색어</h4>
+                    <ul>
+                        <li>검색어1</li>
+                        <li>검색어2</li>
+                        <li>검색어3</li>
+                        <li>검색어4</li>
+                        <li>검색어5</li>
+                    </ul>
+                </div>
+            </div>
         </header>
     );
 }

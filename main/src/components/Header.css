@@ -55,3 +55,71 @@ form.search_box button svg {
     width: 18px;
     height: 18px;
 }
+
+/* 검색 키워드 모달 스타일 시작 */
+.search_box_modal {
+    width: 575px;
+    border: 1px solid #ccc;
+    border-radius: 10px;
+    box-sizing: border-box;
+    background-color: #fff;
+    box-shadow: 0px 8px 24px 0 rgba(149, 157, 165, 0.2);
+
+    display: flex;
+    position: relative;
+    z-index: 1;
+    left: 105px;
+    top: -20px;
+    padding: 20px;
+}
+
+.search_history_keyword {
+    color: #666;
+    font-size: 12px;
+    line-height: 25px;
+    width: 215px;
+}
+
+.search_history_keyword h4,
+.search_famuse_keyword h4 {
+    color: #ccc;
+    font-size: 14px;
+    font-weight: 400;
+}
+
+.keyword_wrap {
+    display: flex;
+}
+
+.keyword_wrap ul:nth-child(2) {
+    margin-left: 60px;
+}
+
+.keyword_wrap ol:nth-child(2) {
+    margin-left: 80px;
+}
+
+.keyword_wrap ol {
+    list-style: decimal;
+    text-indent: 10px;
+    padding-left: 14px;
+}
+
+.search_famuse_keyword {
+    position: relative;
+    color: #666;
+    font-size: 14px;
+    font-weight: 500;
+    line-height: 25px;
+    width: 215px;
+    margin-left: 50px;
+}
+
+.search_famuse_keyword::before {
+    content: "";
+    width: 2px;
+    height: 150px;
+    background-color: #eee;
+    position: absolute;
+    left: -20px;
+}

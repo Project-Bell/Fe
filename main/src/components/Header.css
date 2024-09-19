@@ -65,12 +65,12 @@ form.search_box button svg {
     background-color: #fff;
     box-shadow: 0px 8px 24px 0 rgba(149, 157, 165, 0.2);
 
-    display: flex;
-    position: relative;
+    display: none;
+    position: absolute;
     z-index: 1;
-    left: 105px;
-    top: -20px;
+    top: 55px;
     padding: 20px;
+    margin-left: 65px;
 }
 
 .search_history_keyword {

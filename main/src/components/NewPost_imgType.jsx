@@ -13,9 +13,9 @@ export default function NewPost_imgType() {
             </div>
 
             <div className="imgCard_contents">
-                <img src="https://picsum.photos/seed/picsum/200/300" alt="" />
-                <img src="https://picsum.photos/seed/picsum/200/300" alt="" />
-                <img src="https://picsum.photos/seed/picsum/200/300" alt="" />
+                <img src="https://picsum.photos/seed/picsum/300/300" alt="" />
+                <img src="https://picsum.photos/seed/picsum/300/300" alt="" />
+                <img src="https://picsum.photos/seed/picsum/300/300" alt="" />
             </div>
 
             <p className="txtCard_contents">

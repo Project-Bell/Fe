@@ -7,10 +7,10 @@ export default function HotIssueList() {
         <section className="hot_issue">
             <h3> Hot Issue Bell</h3>
             <div className="card_list">
-                <HotIssueCard />
-                <HotIssueCard />
-                <HotIssueCard />
-                <HotIssueCard />
+                <HotIssueCard titleData={"핫이슈 1"} />
+                <HotIssueCard titleData={"핫이슈 2"} />
+                <HotIssueCard titleData={"핫이슈 3"} />
+                <HotIssueCard titleData={"핫이슈 4"} />
             </div>
         </section>
     );

@@ -1,10 +1,10 @@
 import React from "react";
 import "./HotIssueCard.css";
 
-export default function HotIssueCard() {
+export default function HotIssueCard({ titleData }) {
     return (
         <div className="hotIssue_card">
-            <h4>키워드</h4>
+            <h4>{titleData}</h4>
             <p>
                 계절이 지나가는 하늘에는 가을로 가득 차 있습니다. 나는 아무
                 걱정도 없이 가을 속의 별들을 다 헬 듯합니다. 가슴 속에 하나 둘

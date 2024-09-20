@@ -1,3 +1,24 @@
+/* 모든 카드를 가리면서 100% width를 사용하는 스타일 */
+/* .hotIssue_card {
+    width: 150px;
+    height: 150px;
+
+    box-sizing: border-box;
+    border: 1px solid #eee;
+    border-radius: 10px;
+
+    padding: 16px 10px;
+
+    transition: all 0.3s ease;
+}
+.hotIssue_card:hover {
+    width: 640px;
+    position: absolute;
+    background-color: #fff;
+    z-index: 10;
+} */
+
+/* 모든 카드 보이면서 밀리는 스타일 */
 .hotIssue_card {
     width: 150px;
     height: 150px;
@@ -7,6 +28,19 @@
     border-radius: 10px;
 
     padding: 16px 10px;
+
+    transition: all 0.3s ease;
+    position: relative;
+    overflow: hidden;
+    background-color: white;
+    /* left: calc(var(--card-index) * 160px); 각 카드 사이 간격 */
+    z-index: 1;
+}
+
+.hotIssue_card:hover {
+    width: 640px;
+    height: auto;
+    z-index: 10;
 }
 
 .hotIssue_card h4 {

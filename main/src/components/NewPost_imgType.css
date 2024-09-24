@@ -4,6 +4,7 @@
 
     border: 1px solid #eee;
     border-radius: 10px;
+    cursor: pointer;
 }
 
 .post_img_type .user_info {

@@ -1,10 +1,10 @@
 import React from "react";
-import { Link } from "react-router-dom";
 import style from "./UserStateBar.module.css";
 import GrayBtn from "./components_btn/GrayBtn";
 import WhiteBtn from "./components_btn/WhiteBtn";
 import LiveBellTop2 from "./components_btn/LiveBellTop2";
 import LiveBellTop8 from "./components_btn/LiveBellTop8";
+import { FaSignOutAlt, FaUserCircle } from "react-icons/fa";
 
 export default function UserStateBar() {
     return (
@@ -16,13 +16,13 @@ export default function UserStateBar() {
                 />
                 <span>Nickname</span>
 
-                <div className="user_state">
+                <div className={style.user_state}>
                     <ul>
                         <li>
-                            {/* <Link to="./" className={["user_mypage"]} /> */}
+                            <FaUserCircle size="30px" color="#777" />
                         </li>
                         <li>
-                            {/* <Link to="./" className={["user_logout"]} /> */}
+                            <FaSignOutAlt size="30px" color="#777" />
                         </li>
                     </ul>
                 </div>

@@ -29,6 +29,15 @@
     margin-left: 1rem;
 }
 
+.user_state {
+    position: absolute;
+    right: 0;
+}
+.user_state ul {
+    display: flex;
+    gap: 20px;
+}
+
 .cart_state_btn_wrap {
     margin-top: 2.1875rem;
 

@@ -4,7 +4,16 @@ import GrayBtn from "./components_btn/GrayBtn";
 import WhiteBtn from "./components_btn/WhiteBtn";
 import LiveBellTop2 from "./components_btn/LiveBellTop2";
 import LiveBellTop8 from "./components_btn/LiveBellTop8";
-import { FaSignOutAlt, FaUserCircle } from "react-icons/fa";
+import {
+    FaSignOutAlt,
+    FaAddressCard,
+    FaBorderAll,
+    FaBookmark,
+    FaRocketchat,
+    FaEye,
+    FaRegComment,
+    FaHeart,
+} from "react-icons/fa";
 
 export default function UserStateBar() {
     return (
@@ -19,7 +28,7 @@ export default function UserStateBar() {
                 <div className={style.user_state}>
                     <ul>
                         <li>
-                            <FaUserCircle size="30px" color="#777" />
+                            <FaAddressCard size="30px" color="#777" />
                         </li>
                         <li>
                             <FaSignOutAlt size="30px" color="#777" />
@@ -34,17 +43,32 @@ export default function UserStateBar() {
             </div>
 
             <aside className={style.user_side_tap}>
-                <WhiteBtn pageName="내 카드로 이동"></WhiteBtn>
-                <WhiteBtn pageName="최근 본 카드"></WhiteBtn>
+                <WhiteBtn
+                    pageIcon={<FaBorderAll />}
+                    pageName="내 카드로 이동"
+                ></WhiteBtn>
+                <WhiteBtn
+                    pageIcon={<FaEye />}
+                    pageName="최근 본 카드"
+                ></WhiteBtn>
 
-                <WhiteBtn pageName="실시간 채팅방"></WhiteBtn>
-                <WhiteBtn pageName="저장한 카드"></WhiteBtn>
+                <WhiteBtn
+                    pageIcon={<FaRocketchat />}
+                    pageName="실시간 채팅방"
+                ></WhiteBtn>
+                <WhiteBtn
+                    pageIcon={<FaBookmark />}
+                    pageName="저장한 카드"
+                ></WhiteBtn>
 
-                <WhiteBtn pageName="1:1 채팅방"></WhiteBtn>
-                <WhiteBtn pageName="좋아하는 카드"></WhiteBtn>
-
-                {/* <WhiteBtn pageName="관심 키워드"></WhiteBtn>
-                <WhiteBtn pageName="관심 키워드"></WhiteBtn> */}
+                <WhiteBtn
+                    pageIcon={<FaRegComment />}
+                    pageName="1:1 채팅방"
+                ></WhiteBtn>
+                <WhiteBtn
+                    pageIcon={<FaHeart />}
+                    pageName="좋아하는 카드"
+                ></WhiteBtn>
             </aside>
 
             <aside className={style.live_top_10}>

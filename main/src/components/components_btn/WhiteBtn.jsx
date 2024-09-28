@@ -13,16 +13,13 @@ const WhiteBtnStyled = styled.button`
     padding-left: 50px;
 `;
 
-export default function WhiteBtn({ pageName, pageLink }) {
-    // const nav = useNavigate();
-
-    // function handleClick() {
-    //     nav(`/${pageLink}`);
-    // }
-
+export default function WhiteBtn({ pageName, pageIcon }) {
     return (
         <>
-            <WhiteBtnStyled type="button">{pageName}</WhiteBtnStyled>
+            <WhiteBtnStyled type="button">
+                <span>{pageIcon}</span>
+                {pageName}
+            </WhiteBtnStyled>
         </>
     );
 }

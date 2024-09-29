@@ -11,15 +11,21 @@ const WhiteBtnStyled = styled.button`
     border: 1px solid #eee;
     border-radius: 10px;
     padding-left: 50px;
+
+    display: flex;
+    align-items: center;
+`;
+
+const Icon = styled.span`
+    display: inline-flex;
+    margin-right: 8px;
 `;
 
 export default function WhiteBtn({ pageName, pageIcon }) {
     return (
-        <>
-            <WhiteBtnStyled type="button">
-                <span>{pageIcon}</span>
-                {pageName}
-            </WhiteBtnStyled>
-        </>
+        <WhiteBtnStyled type="button">
+            <Icon>{pageIcon}</Icon>
+            {pageName}
+        </WhiteBtnStyled>
     );
 }

@@ -10,7 +10,7 @@ export default function NewPost_imgType() {
             <div className="user_info">
                 <img
                     src="https://picsum.photos/seed/picsum/200/300"
-                    alt="유저 프로필 이미지"
+                    alt="{user} 프로필 이미지"
                 />
                 <span className="user_nickname">Lorem_ipsum</span>
             </div>
